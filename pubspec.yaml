@@ -1,0 +1,138 @@
+name: gtk_flutter
+description: Get to know Firebase with Flutter
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  cloud_firestore: ^3.1.8
+  firebase_auth: ^3.3.7
+  firebase_core: ^1.12.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/sha.png
+    - images/shaplus.png
+    - images/shaextraplus.png
+    - images/SHAxSafeTravelsStamp.jpg
+    - images/hotel.jpg
+    - images/hotelcontactcenter.jpg
+    - images/shabangkok01.jpg
+    - images/shabangkok01-Standard.jpg
+    - images/shabangkok01-Superior.jpg
+    - images/shabangkok01-Deluxe.jpg
+    - images/shabangkok01-Super-Deluxe.jpg
+    - images/shabangkok01-1-Bedroom-Suite.jpg
+    - images/shabangkok01-2-Bedroom-Suite.jpg
+    - images/shachonburi01.jpg
+    - images/shachonburi01-Superior.jpg
+    - images/shachonburi01-Deluxe.jpg
+    - images/shachonburi01-ExecutiveSuite.jpg
+    - images/shachonburi01-FamilySuiteRoom.jpg
+    - images/shanakhonpathom01.jpg
+    - images/shanakhonpathom01-Standard-Twinbed.jpg
+    - images/shanakhonpathom01-Standard.jpg
+    - images/shanakhonpathom01-VIP.jpg
+    - images/shanakhonpathom01-Suite-room.jpg
+    - images/shanonthaburi01.jpeg
+    - images/shanonthaburi01-Superior-Twinbed.jpg
+    - images/shanonthaburi01-Superior-Singlebed.jpg
+    - images/shanonthaburi01-Deluxe-Twinbed.jpg
+    - images/shanonthaburi01-Deluxe-Singlebed.jpg 
+    - images/shanonthaburi01-Tripleroom.jpg
+    - images/shanonthaburi01-Suiteroom.jpg
+    - images/shapathumthani01.jpg
+    - images/shapathumtani01-standard.png
+    - images/shapathumthani01-deluxe.png
+    - images/shasamutprakan01.jpg
+    - images/shasamutprakan01-deluxe-twinbed.jpg
+    - images/shasamutprakan01-deluxe-singlebed.jpg
+    - images/shasamutprakan01-granddeluxe-twinbed.jpg
+    - images/shasamutprakan01-granddeluxe-singlebed.jpg
+    - images/shasamutprakan01-suite.jpg
+    - images/shaplusbangkok01.jpg
+    - images/shaplusbangkok01-Deluxe-room.jpg
+    - images/shaplusbangkok01-Superior-room.jpg
+    - images/shaplusbangkok01-One-bedroom-suite.jpg
+    - images/shapluschonburi01.jpg
+    - images/shpchonburi01R01.jpg
+    - images/shpchonburi01R02.jpg
+    - images/shpchonburi01R03.jpg
+    - images/shpchonburi01R04.jpg
+    - images/shpchonburi01R05.jpg
+    - images/shaplusnakhonpathom01.jpg
+    - images/shaplusnakhonpathom01-deluxe.jpg
+    - images/shaplusnakhonpathom01-deluxewithpool.jpg
+    - images/shaplusnakhonpathom01-deluxechedi.jpg
+    - images/shaplusnakhonpathom01-executivesuite.jpg
+    - images/shaplusnakhonpathom01-dhavaravatisuite.jpg
+    - images/shaplusnonthaburi01.jpg
+    - images/shaplusnonthaburi01-standdard-twin-room.jpg
+    - images/shaplusnonthaburi01-standdard-queen-room.jpg
+    - images/shapluspathumthani01.jpg
+    - images/shapluspathumthani01-triple-room.jpg
+    - images/shapluspathumthani01-superior-twinbed.jpg
+    - images/shapluspathumthani01-superior-singlebed.jpg
+    - images/shapluspathumthani-executive-room-twinbed.jpg
+    - images/shapluspathumthani-executive-room-singlebed.jpg
+    - images/shapluspathumthani01-premier-room.jpg
+    - images/shapluspathumthani01-asia-suite.jpg
+    - images/shapluspathumthani01-studio-room.jpg
+    - images/shaplussamutprakan01.jpg
+    - images/shaplussamutprakan01-superior-room.jpg
+    - images/shaplussamutprakan01-deluxe-room.jpg
+    - images/shaplussamutprakan01-junior-suite.jpg
+    - images/shaplussamutprakan01-royal-suite.jpg
+    - images/shaextraplusbangkok01.jpg
+    - images/shaextraplusbangkok01-deluxe-twinbed.jpg
+    - images/shaextraplusbangkok01-deluxe-kingbed.jpg
+    - images/shaextraplusbangkok01-business-class-room-twinbed.jpg
+    - images/shaextraplusbangkok01-business-class-room-kingbed.jpg
+    - images/shaextraplusbangkok01-premium-deluxe-room-twinbed.jpg
+    - images/shaextraplusbangkok01-premium-deluxe-room-kingbed.jpg
+    - images/shaextraplusbangkok01-junior-suite.jpg
+    - images/shaextraplusbangkok01-one-bedroom-suite.jpg
+    - images/shaextraplusbangkok01-two-bedroom-suite.jpg
+    - images/shaextrapluschonburi01.jpg
+    - images/shaextrapluschonburi01-superior-twinbed.jpg
+    - images/shaextrapluschonburi01-superior-kingbed.jpg
+    - images/shaextrapluschonburi01-deluxe-ocean-view-twinbed.jpg
+    - images/shaextrapluschonburi01-deluxe-ocean-view-kingbed.jpg
+    - images/shaextrapluschonburi01-superiorfamily.jpg
+    - images/shaextrapluschonburi01-one-bedroom-suite.jpg
+    - images/shaextrapluschonburi01-superior-twobedroom-twinbed.jpg
+    - images/shaextrapluschonburi01-superior-twobedroom-kingbed.jpg
+    - images/shaextrapluschonburi01-deluxe-twobedroom-twinbed.jpg
+    - images/shaextrapluschonburi01-deluxe-twobedroom-kingbed.jpg
+    - images/shaexpraplusnakhonpathum01.jpg
+    - images/shaexpraplusnakhonpathum01-superior.jpg
+    - images/shaexpraplusnakhonpathum01-deluxe.jpg
+    - images/shaexpraplusnakhonpathum01-juniorsuites.jpg
+    - images/shaextraplusnonthaburi01.jpg
+    - images/shaextraplusnonthaburi01-superiortwin.jpg
+    - images/shaextraplusnonthaburi01-superiorking.jpg
+    - images/shaextraplusnonthaburi01-onebedroomsuite.jpg
+    - images/shaextraplusnonthaburi01-twobedroomsuite.jpg
+    - images/shaextrapluspathumthani01.jpg
+    - images/shaextrapluspathumthani01-SuperiorRoom-Twinbed.jpg
+    - images/shaextrapluspathumthani01-SuperiorRoom-Kingbed.jpg
+    - images/shaextrapluspathumthani01-DeluxeRoom.jpg
+    - images/shaextrapluspathumthani-JuniorSuite.jpg
+    - images/shaextrapluspathumthani-FamilySuite.jpg
+    - images/shaextraplussamutprakan01.jpg
+    - images/shaextraplussamutprakan01-standardroom.jpg
+    - images/shaextraplussamutprakan01-superiorroom.jpg
+  
+
